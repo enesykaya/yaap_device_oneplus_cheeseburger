@@ -27,6 +27,8 @@ $(call inherit-product, vendor/yaap/config/common_full_phone.mk)
 # Boot animation
 scr_resolution := 1080
 
+TARGET_BUILD_GAPPS := true
+
 PRODUCT_NAME := yaap_cheeseburger
 PRODUCT_DEVICE := cheeseburger
 PRODUCT_MANUFACTURER := OnePlus
